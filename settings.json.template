@@ -5,15 +5,15 @@
 */
 {
   // name your instance!
-  "title": "IQUIDUS",
+  "title": "Atlantis",
 
-  "address": "127.0.0.1:3001",
+  "address": "127.0.0.1:5000",
 
   // coin name
-  "coin": "Darkcoin",
+  "coin": "AtlantisCoin",
 
   // coin symbol
-  "symbol": "DRK",
+  "symbol": "ATLC",
 
   // logo
   "logo": "/images/logo.png",
@@ -29,15 +29,15 @@
   "theme": "Cyborg",
 
   // port to listen for requests on.
-  "port" : 3001,
+  "port" : 5000,
 
   // database settings (MongoDB)
   "dbsettings": {
-    "user": "iquidus",
-    "password": "3xp!0reR",
-    "database": "explorerdb",
-    "address": "localhost",
-    "port": 27017
+    "user": "explorerUser",
+    "password": "",
+    "database": "",
+    "address": "",
+    "port": 21884
   },
 
   //update script settings
@@ -48,10 +48,12 @@
   "use_rpc": false,
 
   "wallet": {
-    "host": "localhost",
-    "port": 9332,
-    "user": "darkcoinrpc",
-    "pass": "123gfjk3R3pCCVjHtbRde2s5kzdf233sa"
+    "host": "127.0.0.1",
+    "port": 19998,
+    "user": "",
+    "pass": "",
+    "username": "",
+    "password": ""
   },
 
   // confirmations
@@ -62,16 +64,16 @@
 
   // menu settings
   "display": {
-    "api": true,
-    "markets": true,
-    "richlist": true,
-    "twitter": true,
+    "api": false,
+    "markets": false,
+    "richlist": false,
+    "twitter": false,
     "facebook": false,
     "googleplus": false,
     "youtube": false,
-    "search": true,
-    "movement": true,
-    "network": true
+    "search": false,
+    "movement": false,
+    "network": false
   },
 
   // index page (valid options for difficulty are POW, POS or Hybrid)
